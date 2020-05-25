@@ -1,0 +1,23 @@
+{
+  "name": "purescript-record-diff",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/3rd-party-mirrors/purescript-record-diff.git"
+  },
+  "ignore": [
+    "**/.*",
+    ".spago",
+    "node_modules",
+    "output"
+  ],
+  "devDependencies": {
+    "purescript": "^0.13.6",
+    "purty": "^6.2.0",
+    "spago": "^0.15.2"
+  },
+  "scripts": {
+    "test": "pnpx spago test --purs-args '-o output/ -g sourcemaps' -m Record.Diff.Test"
+  }
+}
