@@ -7,3 +7,10 @@
 /.psc*
 /.purs*
 /.psa*
+/pnpm-lock.yaml
+/.spago/
+/project.code-workspace
+/pnpm-debug.log
+/.wakatime-project
+/.debris/
+/.vscode/
